@@ -9,7 +9,6 @@ class YellowMaillink {
 	public function onLoad($yellow) {
 		$this->yellow = $yellow;
 		$this->yellow->system->setDefault("MailAddress", "");
-		$this->yellow->system->setDefault("MailLinktext", "Mail");
 		$this->yellow->language->setDefaults([
 			"Language: en",
 			"MailLinktext: Drop me a line",
