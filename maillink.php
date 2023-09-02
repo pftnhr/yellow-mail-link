@@ -9,7 +9,7 @@ class YellowMaillink {
 	public function onLoad($yellow) {
 		$this->yellow = $yellow;
 		$this->yellow->system->setDefault("MailAddress", "");
-		$this->yellow->language->setDefaults([
+		$this->yellow->language->setDefaults(array(
 			"Language: en",
 			"MailLinktext: Drop me a line",
 			"Language: de",
@@ -19,8 +19,7 @@ class YellowMaillink {
 			"Language: it",
 			"MailLinktext: Lasciatemi un messaggio",
 			"Language: sv",
-			"MailLinktext: Skriv till mig",
-		]);
+			"MailLinktext: Skriv till mig"));
 	}
 
 	// Handle page content of shortcut
