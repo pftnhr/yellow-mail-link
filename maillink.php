@@ -8,22 +8,18 @@ class YellowMaillink {
 	// Handle initialisation
 	public function onLoad($yellow) {
 		$this->yellow = $yellow;
+		$this->yellow->system->setDefault("MailAddress", "");
 		$this->yellow->language->setDefaults(array(
 			"Language: en",
 			"MailLinktext: Drop me a line",
-			"MailAddress:",
 			"Language: de",
 			"MailLinktext: Schreib mir ein paar Zeilen",
-			"MailAddress:",
 			"Language: fr",
 			"MailLinktext: Contactez-moi",
-			"MailAddress:",
 			"Language: it",
 			"MailLinktext: Lasciatemi un messaggio",
-			"MailAddress:",
 			"Language: sv",
-			"MailLinktext: Skriv till mig",
-			"MailAddress:"));
+			"MailLinktext: Skriv till mig"));
 	}
 
 	// Handle page content of shortcut
