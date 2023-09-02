@@ -2,7 +2,7 @@
 // Maillink extension, https://github.com/pftnhr/yellow-maillink
 
 class YellowMaillink {
-	const VERSION = "0.8.21";
+	const VERSION = "0.8.22";
 	public $yellow;            //access to API
 
 	// Handle initialisation
