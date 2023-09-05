@@ -26,13 +26,13 @@ If you insert an image, the link text becomes the `title` and `alt` attribute.
 
 ## Settings
 
-### The following settings can be configured in file `system/extensions/yellow-system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
     MailAddress = default e-mail address
 
 If `MailAddress` isn't filled in here, the email of the webmaster (yellow-system.ini, line 5) will be taken.
 
-### The following setting can be configured in file `system/extensions/yellow-language.ini`:
+The following setting can be configured in file `system/extensions/yellow-language.ini`:
 
     MailLinktext = default link text
 
