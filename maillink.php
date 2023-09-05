@@ -8,18 +8,18 @@ class YellowMaillink {
 	// Handle initialisation
 	public function onLoad($yellow) {
 		$this->yellow = $yellow;
-		$this->yellow->system->setDefault("MailAddress", "Insert your desired email address or remove this string");
+		$this->yellow->system->setDefault("MaillinkAddress", "Insert your desired email address or remove this string");
 		$this->yellow->language->setDefaults([
-			"Language: it",
-			"MailLinktext: Lasciatemi un messaggio",
-			"Language: de",
-			"MailLinktext: Schreib mir ein paar Zeilen",
-			"Language: en",
-			"MailLinktext: Drop me a line",
-			"Language: sv",
-			"MailLinktext: Skriv till mig",
-			"Language: fr",
-			"MailLinktext: Contactez-moi",
+            "Language: it",
+            "MaillinkText: Lasciatemi un messaggio",
+            "Language: de",
+            "MaillinkText: Schreib mir ein paar Zeilen",
+            "Language: en",
+            "MaillinkText: Drop me a line",
+            "Language: sv",
+            "MaillinkText: Skriv till mig",
+            "Language: fr",
+            "MaillinkText: Contactez-moi",
 		]);
 	}
 
@@ -29,7 +29,7 @@ class YellowMaillink {
 		if ($name=="mailto" && ($type=="block" || $type=="inline")) {
 			list($maillinktext, $maillinkimage) = $this->yellow->toolbox->getTextArguments($text);
 			$mailaddress = $this->yellow->system->get("MailAddress");
-			if (is_string_empty($maillinktext)) $maillinktext = $this->yellow->language->getText("MailLinktext");
+			if (is_string_empty($maillinktext)) $maillinktext = $this->yellow->language->getText("MaillinkText");
 			if (is_string_empty($mailaddress)) $mailaddress = $this->yellow->system->get("Email");
 			if (preg_match("/\.(jpg|jpeg|png|gif|svg)$/i", $maillinkimage)){
 				$output .= "<a href=\"" . $this->no_spam($mailaddress) . "\"><img src=\"/media/images/" . $maillinkimage . "\" title=\"" . $maillinktext . "\" alt=\"" . $maillinktext . "\" /></a>";

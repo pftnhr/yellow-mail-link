@@ -36,6 +36,10 @@ The following setting can be configured in file `system/extensions/yellow-langua
 
     MailLinktext = default link text
 
+## Acknowledgements
+
+Thanks to [Steffen Schultz](https://github.com/schulle4u) for his help with language settings.
+
 ## Developer
 
 Robert Pfotenhauer. [Get help](https://datenstrom.se/yellow/help/).
