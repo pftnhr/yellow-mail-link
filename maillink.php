@@ -10,16 +10,16 @@ class YellowMaillink {
 		$this->yellow = $yellow;
 		$this->yellow->system->setDefault("MaillinkAddress", "Insert your desired email address or remove this string");
 		$this->yellow->language->setDefaults([
-            "Language: it",
-            "MaillinkText: Lasciatemi un messaggio",
-            "Language: de",
-            "MaillinkText: Schreib mir ein paar Zeilen",
-            "Language: en",
+			"Language: en",
             "MaillinkText: Drop me a line",
+			"Language: de",
+			"MaillinkText: Schreib mir ein paar Zeilen",
             "Language: sv",
-            "MaillinkText: Skriv till mig",
+            "MaillinkText: Hör av dig",
             "Language: fr",
             "MaillinkText: Contactez-moi",
+			"Language: it",
+			"MaillinkText: Lasciatemi un messaggio",
 		]);
 	}
 
