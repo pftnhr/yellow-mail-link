@@ -8,7 +8,7 @@ Creates a `mailto:` link without a visible mail address in the source text.
 
 [Download ZIP file](https://github.com/pftnhr/yellow-maillink/archive/refs/heads/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
-## How to create a `mailto:` link
+## How to create a mailto link
 
 Create a mailto: shortcut.
 
