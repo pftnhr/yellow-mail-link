@@ -10,7 +10,7 @@ Creates a `mailto:` link without a visible mail address in the source text.
 
 ## How to create a `mailto:` link
 
-Create a `[mailto]` shortcut.
+Create a mailto: shortcut.
 
 ## Examples
 
@@ -38,7 +38,7 @@ The following setting can be configured in file `system/extensions/yellow-langua
 
 ## Acknowledgements
 
-Thanks to [Steffen Schultz](https://github.com/schulle4u) for his help with language settings.
+Thanks to [Steffen Schultz](https://github.com/schulle4u) for his help with language settings. Thanks to [Mark Seuffert](https://github.com/markseuffert) for helping me improve the swedish translation.
 
 ## Developer
 
