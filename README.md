@@ -2,7 +2,7 @@
 
 Creates a `mailto:` link without a visible mail address in the source text.
 
-<p align="center"><img src="maillink-screenshot.png" alt="Screenshot"></p>
+<p align="center"><img src="SCREENSHOT.png" alt="Screenshot"></p>
 
 ## How to install the extension
 
