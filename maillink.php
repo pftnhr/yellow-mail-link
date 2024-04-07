@@ -2,7 +2,7 @@
 // Maillink extension, https://github.com/pftnhr/yellow-maillink
 
 class YellowMaillink {
-	const VERSION = "0.8.23";
+	const VERSION = "0.9.1";
 	public $yellow;            //access to API
 
 	// Handle initialisation
@@ -24,7 +24,7 @@ class YellowMaillink {
 	}
 
 	// Handle page content of shortcut
-	public function onParseContentShortcut($page, $name, $text, $type) {
+	public function onParseContentElement($page, $name, $text, $attributes, $type) {
 		$output = null;
 		if ($name=="mailto" && ($type=="block" || $type=="inline")) {
 			list($maillinktext, $maillinkimage) = $this->yellow->toolbox->getTextArguments($text);

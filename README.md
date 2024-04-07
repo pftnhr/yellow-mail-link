@@ -1,4 +1,4 @@
-# Maillink 0.8.23
+# Maillink 0.9.1
 
 Creates a `mailto:` link without a visible mail address in the source text.
 
